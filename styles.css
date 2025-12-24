@@ -706,6 +706,14 @@ body {
     color: #00c853;
 }
 
+.logo-contractor {
+    background: linear-gradient(135deg, #0a2a3a 0%, #0d4a5a 100%);
+    border-color: #00d4d4;
+}
+.logo-contractor .logo-letter {
+    color: #00d4d4;
+}
+
 /* Hover glow effect */
 .icon-logo, .dock-logo {
     transition: all 0.3s ease;
@@ -722,6 +730,7 @@ body {
 .logo-brown:hover { box-shadow: 0 0 25px rgba(201, 168, 108, 0.5); }
 .logo-cyan:hover { box-shadow: 0 0 25px rgba(0, 212, 255, 0.5); }
 .logo-green:hover { box-shadow: 0 0 25px rgba(0, 200, 83, 0.5); }
+.logo-contractor:hover { box-shadow: 0 0 25px rgba(0, 212, 212, 0.5); }
 
 .icon-image {
     width: 64px;
